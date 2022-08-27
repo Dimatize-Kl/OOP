@@ -22,8 +22,7 @@ public class Student {
         Student studentThree = new Student("Sergey", "Sergeev", 22, 4.4);
         Student studentBest = new Student("", "", 0, 0);
 
-        List<Student> listOne = List.of(studentOne, studentTwo, studentThree);
-        List<Student> listTwo = new ArrayList(listOne);
+        List<Student> listTwo = Arrays.asList(studentOne, studentTwo, studentThree);
 
         for (Iterator<Student> iterator = listTwo.iterator(); iterator.hasNext(); ) {
             Student studentIterator = iterator.next();
