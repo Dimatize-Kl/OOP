@@ -22,7 +22,7 @@ public class Garage {
         if (mapCar.containsKey(car)) {
             mapCar.put(car, mapCar.get(car) - 1);
         }
-        System.out.println("Автомобиль " + car.toString() + " приехал на парковку");
+        System.out.println("Автомобиль " + car.toString() + " покинул парковку");
         return mapCar;
     }
 
