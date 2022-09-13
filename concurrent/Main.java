@@ -1,5 +1,8 @@
 package com.kda.concurrent;
 
+import com.kda.Multithreading.DZ2.MagesAir;
+import com.kda.Multithreading.DZ2.PlanetCrystals;
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
